@@ -1,7 +1,8 @@
 # Analisis-System-Rekomendasi-Musik-Spotify-MenggunakanMachineLearning
 
-Nama: Dhion Nur Damanhuri
-NIM : A11.2023.15448
+**Nama**: Dhion Nur Damanhuri  
+**NIM** : A11.2023.15448
+
 
 # Ringkasan dan Permasalahan Project
   # Permasalahan
