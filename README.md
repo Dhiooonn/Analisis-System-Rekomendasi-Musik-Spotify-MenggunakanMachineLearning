@@ -1,8 +1,11 @@
-# Analisis-System-Rekomendasi-Musik-Spotify-MenggunakanMachineLearning
+# Analisis-System-Rekomendasi-Musik-Spotify-Menggunakan-MachineLearning
 
 **Nama**: Dhion Nur Damanhuri  
 **NIM** : A11.2023.15448
 
+# Ringkasan
+Sistem rekomendasi ini dibangun untuk memprediksi apakah suatu lagu akan disukai pengguna atau tidak berdasarkan fitur audio seperti danceability, energy, valence, dll. Model machine learning yang digunakan meliputi Logistic Regression, KNN, dan Random Forest — dengan performa terbaik ditunjukkan oleh Random Forest.
+  
 
 # Ringkasan dan Permasalahan Project
   # Permasalahan
@@ -14,6 +17,10 @@
   3. Mengukur performa model dalam memprediksi ketertarikan pengguna terhadap lagu.
 
   # Model / Alur Penyelesain
+  1. Preprocessing data Spotify Top Songs
+  2. Analisis data (EDA) & feature engineering
+  3. Pelatihan dan evaluasi model klasifikasi
+  4. Penarikan kesimpulan dan potensi pengembangan
 
 
 # Penjelasan Dataset, EDA, dan Proses features dataset
