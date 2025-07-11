@@ -24,6 +24,9 @@ Sistem rekomendasi ini dibangun untuk memprediksi apakah suatu lagu akan disukai
   3. Pelatihan dan evaluasi model klasifikasi
   4. Penarikan kesimpulan dan potensi pengembangan
 
+     <img width="1672" height="776" alt="image" src="https://github.com/user-attachments/assets/5d3f3d83-551f-4a16-b100-87e504ffca02" />
+
+
 
 
 
