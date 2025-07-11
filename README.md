@@ -11,7 +11,7 @@ Sistem rekomendasi ini dibangun untuk memprediksi apakah suatu lagu akan disukai
 
 # Ringkasan dan Permasalahan Project
   # Permasalahan
-  Pengguna sering kesulitan menemukan lagu yang sesuai dengan selera mereka. Untuk itu, dibutuhkan sistem rekomendasi musik yang dapat memprediksi lagu mana yang disukai berdasarkan karakteristik audio dan metadata    lagu.
+  Pengguna sering kesulitan menemukan lagu yang sesuai dengan selera mereka. Untuk itu, dibutuhkan sistem rekomendasi musik yang dapat memprediksi lagu mana yang disukai berdasarkan karakteristik audio dan metadata lagu.
 
   # Tujuan
   1. Membuat sistem rekomendasi musik berbasis machine learning.
@@ -52,11 +52,17 @@ Sistem rekomendasi ini dibangun untuk memprediksi apakah suatu lagu akan disukai
   1. Pisahkan fitur (X) dan target (y)
   2. Split dataset: train_test_split
   3. Model yang bisa digunakan:
+     
      a. Logistic Regression
+     
      b. Random Forest
+     
      c. Decision Tree
+     
      d. K-Nearest Neighbors (KNN)
+     
      e. Gradient Boosting / XGBoost
+     
 
   # Evaluasi Model
     1. Accuracy
@@ -73,24 +79,38 @@ Random Forest score: 1.0
 
 # Diskusi Hasil
   1. Eksplorasi Data (EDA) menunjukkan bahwa:
+     
      a. Lagu dengan danceability dan energy tinggi lebih disukai pengguna.
      
-     b. Fitur seperti acousticness, instrumentalness, dan speechiness terlalu tinggi justru     cenderung menurunkan minat pendengar.
+     b. Fitur seperti acousticness, instrumentalness, dan speechiness terlalu tinggi justru cenderung menurunkan minat pendengar.
+     
      c. Tempo dan durasi juga berperan, tetapi dalam rentang moderat (tidak terlalu cepat dan tidak terlalu lama).
+     
 
   3. Pemilihan Target Kelas:
+     
      a. Target diklasifikasikan berdasarkan kombinasi danceability dan loudness, serta dengan metode clustering (KMeans).
+     
      b. Lagu dikategorikan sebagai disukai (1) atau tidak disukai (0).
      
-  4. Model Klasifikasi Tradisional:
+     
+  5. Model Klasifikasi Tradisional:
+     
      a. Random Forest menghasilkan akurasi tertinggi yaitu 100% pada data latih dan sangat baik pada data uji (±98–100% tergantung split).
+     
      b. Naive Bayes menunjukkan performa sangat baik dengan akurasi 98%, meskipun cenderung sensitif terhadap korelasi antar fitur.
+     
      c. Decision Tree juga memberikan performa cukup baik dengan akurasi ±95%.
      
-  5. Model Deep Learning (ANN):
+     
+  7. Model Deep Learning (ANN):
+     
      a. ANN dengan 2 hidden layers dan aktivasi ReLU/tanh menunjukkan akurasi yang bervariasi, berkisar 93%–95%, tergantung hyperparameter.
+     
      b. Dengan arsitektur sederhana (input → 2 hidden → output), ANN mampu belajar dari fitur akustik seperti acousticness, liveness, valence, dll.
+     
      c. erjadi potensi overfitting jika jumlah layer atau epoch terlalu tinggi, yang bisa mengurangi kemampuan generalisasi model.
+     
 
 
 # Kesimpulan
