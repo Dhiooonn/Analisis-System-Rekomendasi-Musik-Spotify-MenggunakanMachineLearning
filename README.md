@@ -30,3 +30,13 @@ Sistem rekomendasi ini dibangun untuk memprediksi apakah suatu lagu akan disukai
   3. Numerik: danceability, energy, loudness, tempo
   4. Kategorikal: mode, source, key.
   5. Target: target (0 = tidak disukai, 1 = disukai)
+
+  # EDA (Exploratory Data Analysis)
+  1. Distribusi target → Apakah dataset imbalance?
+  2. Korelasi antar fitur → Fitur mana paling berpengaruh terhadap target.
+  3. Visualisasi: histogram, boxplot, heatmap korelasi.
+
+  #  Feature Engineering
+  1. Konversi durasi dari milidetik ke menit.
+  2. Encoding variabel kategorikal seperti mode, key, dan source.
+  3. Normalisasi fitur numerik agar model bekerja optimal.
