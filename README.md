@@ -74,10 +74,11 @@ Random Forest score: 1.0
 # Diskusi Hasil
   1. Eksplorasi Data (EDA) menunjukkan bahwa:
      a. Lagu dengan danceability dan energy tinggi lebih disukai pengguna.
+     
      b. Fitur seperti acousticness, instrumentalness, dan speechiness terlalu tinggi justru     cenderung menurunkan minat pendengar.
      c. Tempo dan durasi juga berperan, tetapi dalam rentang moderat (tidak terlalu cepat dan tidak terlalu lama).
 
-  2. Pemilihan Target Kelas:
+  3. Pemilihan Target Kelas:
      a. Target diklasifikasikan berdasarkan kombinasi danceability dan loudness, serta dengan metode clustering (KMeans).
      b. Lagu dikategorikan sebagai disukai (1) atau tidak disukai (0).
      
