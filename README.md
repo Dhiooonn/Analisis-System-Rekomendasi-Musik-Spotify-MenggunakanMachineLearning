@@ -90,4 +90,11 @@ Random Forest score: 1.0
      a. ANN dengan 2 hidden layers dan aktivasi ReLU/tanh menunjukkan akurasi yang bervariasi, berkisar 93%–95%, tergantung hyperparameter.
      b. Dengan arsitektur sederhana (input → 2 hidden → output), ANN mampu belajar dari fitur akustik seperti acousticness, liveness, valence, dll.
      c. erjadi potensi overfitting jika jumlah layer atau epoch terlalu tinggi, yang bisa mengurangi kemampuan generalisasi model.
+
+
+# Kesimpulan
+1. Random Forest adalah model terbaik untuk tugas klasifikasi ini karena akurasinya tinggi dan mampu menangani fitur yang kompleks dan beragam.
+2. Fitur utama yang berpengaruh terhadap kesukaan lagu adalah: danceability, energy, valence, dan loudness.
+3. ANN (Artificial Neural Network) memberikan hasil yang sangat baik, namun membutuhkan perhatian lebih dalam tuning parameter untuk menghindari overfitting.
+4. Sistem rekomendasi berbasis analisis audio dan mood dapat membantu pengguna menemukan lagu sesuai preferensi emosional mereka, sekaligus berpotensi meningkatkan engagement dalam platform musik digital seperti Spotify.
   
